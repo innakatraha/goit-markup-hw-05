@@ -488,7 +488,7 @@
         </div>
       </div>
     </footer>
-    <div class="container-window">
+    <div class="container-window is-open">
       <div class="window">
         <button type="button" class="window-button">
           <svg class="icon-button" width="8" height="8">
@@ -545,6 +545,7 @@
               name="user-comment"
               id="user-comment"
               class="comment-field"
+              placeholder="Text input"
             ></textarea>
           </div>
           <div class="checkbox-container">
@@ -556,7 +557,11 @@
               class="checkbox-input visually-hidden"
             />
             <label for="user-privacy" class="checkbox-label">
-              I accept the terms and conditions of the</label
+             <span class="figure">
+              <svg width="10" height="8" class="icon-checkbox">
+                <use href="./images/icons.svg#icon-yes"></use>
+              </svg>
+             </span> I accept the terms and conditions of the</label
             >
           </div>
         </form>
