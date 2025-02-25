@@ -474,7 +474,7 @@ img {
   border-radius: 4px;
 }
 .container-form {
-  padding-left: 80px;
+  margin-left: auto;
 }
 .submit-icon {
   margin-left: 16px;
